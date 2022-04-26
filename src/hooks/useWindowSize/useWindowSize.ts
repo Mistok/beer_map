@@ -3,7 +3,8 @@ import { Dimensions } from './types';
 import debounce from 'debounce';
 
 export const useWindowSize = (): Dimensions => {
-  const { clientWidth: initialWidth, clientHeight: initialHeight } = document.documentElement;
+  const { clientWidth: initialWidth, clientHeight: initialHeight } =
+    document.documentElement;
   const [dimensions, setDimensions] = useState<Dimensions>({
     width: initialWidth,
     height: initialHeight,

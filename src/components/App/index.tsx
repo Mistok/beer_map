@@ -1,6 +1,5 @@
 import cns from 'classnames';
 import { useInitI18n } from './hooks/useInitI18n';
-import { AppProps } from './types';
 import cn from './styles.module.scss';
 
 import { MyMap } from '../MyMap/MyMap';
